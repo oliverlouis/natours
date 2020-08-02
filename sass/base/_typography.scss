@@ -1,7 +1,7 @@
 body {
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
-	font-size: 1.6rem;
+	font-size: $default-font-size;
 	line-height: 1.7;
 	color: #777;
 	padding: 3rem;
@@ -43,4 +43,18 @@ body {
 	-webkit-background-clip: text;
 	color: transparent;
 	text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
+}
+
+.heading-tertiary {
+	font-size: $default-font-size;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.paragraph {
+	font-size: 1.6rem;
+
+	&:not(:last-child) {
+		margin-bottom: 3rem;
+	}
 }
