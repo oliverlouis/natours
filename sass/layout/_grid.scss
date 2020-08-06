@@ -10,6 +10,11 @@
 		}
 	}
 
+	@include respond(tab-land) {
+		max-width: 90%;
+		padding: 0 6rem;
+	}
+
 	@include respond(tab-port) {
 		max-width: 70rem;
 		padding: 0 3rem;

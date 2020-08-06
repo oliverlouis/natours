@@ -44,7 +44,7 @@
 		width: 33.33333333%;
 		display: table-cell;
 
-		@include respond(tab-port) {
+		@include respond(tab-land) {
 			width: 100%;
 			display: none;
 			height: 20vh;
@@ -55,11 +55,11 @@
 		width: 66.666666667%;
 		display: table-cell;
 		vertical-align: middle;
-		padding: 3rem 5rem;
+		padding: 2rem 5rem;
 
 		@include respond(tab-land) {
-			padding: 0 5rem !important;
-			display: b;
+			padding: 5rem !important;
+			// display: b;
 		}
 
 		@include respond(tab-port) {
